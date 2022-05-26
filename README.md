@@ -19,7 +19,13 @@ Essentially, the hardware components needed for this are found in the number 1, 
 
 ![test board](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/images/board.png "Test Setup Example")
 
-Requirements:
+#H2 Features:
+
+- Signature reading
+- Compilation and verification
+- GPIO programming (additional libraries and wrappers to come...)
+
+#H2 Requirements:
 
 1. Install ARM-GCC tools for your PC, you can follow point 6 from the following [guide](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/Getting%20Started%20with%20MCUXpresso%20SDK.pdf)
 2. Download and install [FlashMagic Programming Tool for NXP Semiconductors](https://www.flashmagictool.com/download.html)
@@ -27,7 +33,7 @@ Requirements:
 4. Make sure ARM-GCC also works for your environment
 5. Python 3.8 or higher
 
-Getting started:
+#H2 Getting started:
 
 1. Install Tkinter in your python environment
 ```python
