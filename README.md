@@ -17,4 +17,4 @@ Essentially, the hardware components needed for this are found in the number 1, 
 3. [LPC812M101JDH20FP](https://www.mouser.com/ProductDetail/NXP-Semiconductors/LPC812M101JDH20FP?qs=WQO6Kzcwo2GnIeUM20H1Mw%3D%3D)
 4. LEDs, resistors and pushbuttons (for debugging and testing purposes)
 
-![test board]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/images/board.png) "Test Setup Example")
+![test board](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/images/board.png) "Test Setup Example")
