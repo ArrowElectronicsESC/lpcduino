@@ -18,3 +18,7 @@ Essentially, the hardware components needed for this are found in the number 1, 
 4. LEDs, resistors and pushbuttons (for debugging and testing purposes)
 
 ![test board](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/images/board.png "Test Setup Example")
+
+Requirements:
+
+1. Install ARM-GCC tools for your PC, you can follow point 6 from the following [guide](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/Getting%20Started%20with%20MCUXpresso%20SDK.pdf)
