@@ -33,6 +33,9 @@ Essentially, the hardware components needed for this are found in the number 1, 
 4. Make sure ARM-GCC also works for your environment
 5. Python 3.8 or higher
 
+## Contact information
+
+If you are having a hard time installing or running the tool, please reach at bruno.senzio-savino@arrow.com
 ## Getting started:
 
 1. Install *Tkinter* in your python environment
