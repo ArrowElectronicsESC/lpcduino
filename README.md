@@ -27,7 +27,7 @@ Essentially, the hardware components needed for this are found in the number 1, 
 
 ## Requirements:
 
-1. Install ARM-GCC tools for your PC, you can follow point 6 from the following [guide](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/Getting%20Started%20with%20MCUXpresso%20SDK.pdf)
+1. Install ARM-GCC tools for your PC, you can follow **point 6** from the following [guide](https://github.com/BrunoSenzioSavinoArrow/lpcduino/blob/main/Getting%20Started%20with%20MCUXpresso%20SDK.pdf)
 2. Download and install [FlashMagic Programming Tool for NXP Semiconductors](https://www.flashmagictool.com/download.html)
 3. Add the Flashmagic Tool to the Environment variables (PATH)
 4. Make sure ARM-GCC also works for your environment
