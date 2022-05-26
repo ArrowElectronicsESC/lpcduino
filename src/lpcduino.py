@@ -1,4 +1,4 @@
-# LPCduino v0.1
+# LPCduino v0.2
 # Author: BSSB
 # April 10th, 2022
 
@@ -88,7 +88,7 @@ def main_window():
 		#Delete previous text
 		my_text.delete("1.0", END)
 		#Update status bars
-		root.title("New File - LPCduino v0.1 -- Apr 2022")
+		root.title("New File - LPCduino v0.2 -- Apr 2022")
 		status_bar.config(text="New File Created")
 
 		global open_status_name
@@ -195,11 +195,11 @@ def main_window():
 	def compile_file():
 		global compile_status
 		save_file()
-		os.chdir('C:\\Projects\\1_1_POCs\\4_Arduino\\LPC810_CodeBase\\src')
+		os.chdir('C:\\Projects\\1_1_POCs\\4_Arduino\\LPC810_CodeBase\\src') #Change for your local path
 		os.system('python ino2main.py')
 		status_bar.config(text='Compiling code...', background='yellow')
 		try:
-			#os.chdir('C:\\Projects\\1_1_POCs\\4_Arduino\\LPC810_CodeBase\\src')
+			#os.chdir('C:\\Projects\\1_1_POCs\\4_Arduino\\LPC810_CodeBase\\src') #Change for your local path
 			#os.system('make')
 			subprocess.run(['make'], check=True)
 		except subprocess.CalledProcessError:
@@ -217,6 +217,7 @@ def main_window():
 		status_bar.config(text='Compiling and Uploading binary file', background='blue')
 		compile_file()
 		if compile_status == True:
+			#Change for your local path
 			os_out = os.popen('fm --device LPC812M101JD20 --serialport COM3 --baudrate 115200 -erasedevice --program="C:\\Users\\LEGA\\Documents\\Arrow\\Abr2022\\LPCDuino\\LPC810_CodeBase-master\\src\\blinky.hex" --verify="C:\\Users\\LEGA\\Documents\\Arrow\\Abr2022\\LPCDuino\\LPC810_CodeBase-master\\src\\blinky.hex" --timeouts 4000,60000').read()
 			if os_out.find("ERROR")!=-1:
 				status_bar.config(text='Could not upload the code, is the MCU board connected?', background='red')
